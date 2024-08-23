@@ -1,0 +1,11 @@
+name: taskDjangoReact
+runtime:
+  name: nodejs
+  options:
+    packagemanager: npm
+    typescript: false
+description: A minimal AWS JavaScript Pulumi program
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-javascript

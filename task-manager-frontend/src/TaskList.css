@@ -1,0 +1,90 @@
+/* TaskList.css */
+.task-list-container {
+  flex: 1;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  background-color: #4CAF50; /* Example color */
+  color: white;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.task-list-container input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.task-list-container button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-list-container button:hover {
+  background-color: #534ccc;
+}
+
+.task-list-container ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.task-list-container ul li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-list-container ul li:last-child {
+  border-bottom: none;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid #4CAF50;
+  padding: 30px 50px;
+  z-index: 1000;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  text-align: center; /* Center text */
+}
+
+.popup p {
+  margin: 0;
+}
+
+.popup button {
+  margin-top: 20px; /* Add space above the button */
+  padding: 10px 20px; /* Adjust padding for button */
+  border: none;
+  border-radius: 4px;
+  color: white;
+  background-color: #4CAF50;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  background-color: #534ccc;
+}

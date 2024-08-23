@@ -1,0 +1,34 @@
+config:
+  aws:region: us-east-1
+  config:
+  iacpulumi:cidrBlock: 10.0.0.0/16
+  iacpulumi:cidrBlockSubnet: 10.0.0.0/24
+  iacpulumi:destination_cidr: 0.0.0.0/0
+  iacpulumi:vpc_tag_name: "VPC"
+  iacpulumi:state: available
+  iacpulumi:max_count: "3"
+  iacpulumi:publicSubnet: Public Subnet
+  iacpulumi:privateSubnet: Private Subnet
+  iacpulumi:internetGateway: Internet Gateway
+  iacpulumi:publicRouteTable: Public Route Table
+  iacpulumi:publicRoute: Public Route
+  iacpulumi:privateRouteTable: Private Route Table
+  iacpulumi:privateRoute: Private Route
+  iacpulumi:publicRouteForDestinationTag: Public Route for Destination
+  iacpulumi:SecurityGroup: Security Group
+  iacpulumi:Protocol: tcp
+  iacpulumi:HTTPS_Port: "443"
+  iacpulumi:HTTP_Port: "8000"
+  iacpulumi:SSHPort: "22"
+  iacpulumi:ipv4: 0.0.0.0/0
+  iacpulumi:ipv6: ::/0
+  iacpulumi:SSHip: 0.0.0.0/0
+  iacpulumi:AMIName: name
+  iacpulumi:AMINameValue: csye6225*
+  iacpulumi:rootDeviceTypeTag: root-device-type
+  iacpulumi:rootDeviceTypeTagValue: ebs
+  iacpulumi:virtualizationTag: virtualization-type
+  iacpulumi:virtualizationTagValue: hvm
+  iacpulumi:instanceTag: iac-Instance
+  iacpulumi:instanceType: t2.micro
+  iacpulumi:keyValue: djangoreacr
